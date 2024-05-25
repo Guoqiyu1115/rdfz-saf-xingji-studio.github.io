@@ -15,11 +15,11 @@ document.addEventListener('touchmove',function(e){
 	dis = startY - endY;
 })
 
-//滑动事件结束 如果手指滑动距离大于50 并且正向则执行pageTop函数 -->向上滑动翻页
-//滑动事件结束 如果手指滑动距离大于50 方向为负则执行pageDown函数 -->向下滑动翻页
+//滑动事件结束 如果手指滑动距离大于20 并且正向则执行pageTop函数 -->向上滑动翻页
+//滑动事件结束 如果手指滑动距离大于20 方向为负则执行pageDown函数 -->向下滑动翻页
 //翻页完毕 执行qingling函数 进行数值清零
 document.addEventListener('touchend',function(e){
-	if(Math.abs(dis)>50){
+	if(Math.abs(dis)>10){
 		if(dis>0){
 			pageTop(index);
 			qingling();
