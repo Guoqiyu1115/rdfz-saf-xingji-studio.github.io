@@ -1,0 +1,331 @@
+.button {
+    background-color: #00A2E85d;
+    border: none;
+    color: #ffffffdd;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #00A2E8dd;
+    border-radius: 50%;
+    font-size: 16px;
+    position:fixed;
+    z-index: 1919810;
+    right:0px;
+}
+
+.pur_up0 {
+    animation-name: pullup;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 0vw;
+}
+
+.pur_up1 {
+    animation-name: pullup;
+    animation-duration: 2.2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 10vw;
+}
+
+.pur_up2 {
+    animation-name: pullup;
+    animation-duration: 2.4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 20vw;
+}
+
+.pur_up3 {
+    animation-name: pullup;
+    animation-duration: 2.6s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 30vw;
+}
+
+.pur_up4 {
+    animation-name: pullup;
+    animation-duration: 2.8s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 40vw;
+}
+
+.pur_up5 {
+    animation-name: pullup;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 50vw;
+}
+
+.pur_up6 {
+    animation-name: pullup;
+    animation-duration: 3.2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 60vw;
+}
+
+.pur_up7 {
+    animation-name: pullup;
+    animation-duration: 3.4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 70vw;
+}
+
+.pur_up8 {
+    animation-name: pullup;
+    animation-duration: 3.6s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 80vw;
+}
+
+.pur_up9 {
+    animation-name: pullup;
+    animation-duration: 3.8s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 90vw;
+}
+
+@keyframes pullup
+{
+    0% {
+        margin-top: 0vh;
+        background-color: #ffffff;
+    }
+    100% {
+        margin-top: -50vh;
+        background-color: #aa1110;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pur_down0 {
+    animation-name: pushdown;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 0vw;
+}
+
+.pur_down1 {
+    animation-name: pushdown;
+    animation-duration: 2.2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 10vw;
+}
+
+.pur_down2 {
+    animation-name: pushdown;
+    animation-duration: 2.4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 20vw;
+}
+
+.pur_down3 {
+    animation-name: pushdown;
+    animation-duration: 2.6s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 30vw;
+}
+
+.pur_down4 {
+    animation-name: pushdown;
+    animation-duration: 2.8s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 40vw;
+}
+
+.pur_down5 {
+    animation-name: pushdown;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 50vw;
+}
+
+.pur_down6 {
+    animation-name: pushdown;
+    animation-duration: 3.2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 60vw;
+}
+
+.pur_down7 {
+    animation-name: pushdown;
+    animation-duration: 3.4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 70vw;
+}
+
+.pur_down8 {
+    animation-name: pushdown;
+    animation-duration: 3.6s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 80vw;
+}
+
+.pur_down9 {
+    animation-name: pushdown;
+    animation-duration: 3.8s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    width: 10vw;
+    height: 50vh;
+    animation-fill-mode: forwards;
+    position: absolute; 
+    z-index: 114514;
+    margin-left: 90vw;
+}
+
+@keyframes pushdown
+{
+    0% {
+        margin-top: 50vh;
+        background-color: #ffffff;
+    }
+    100% {
+        margin-top: 100vh;
+        background-color: #aa1110;
+    }
+}
