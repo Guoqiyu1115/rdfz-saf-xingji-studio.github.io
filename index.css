@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html,body{
+	height: 100%;
+}
+
+/*大容器*/
+.show{
+	width: 23.437rem;
+	height: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+
+.page{
+	width: 23.437rem;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	display: none;
+	font-size: 50px;
+	text-align: center;
+}
+
+/*设置每一页的背景色*/
+.page:nth-child(1){
+	display: block;
+	background-color: pink;
+}
+.page:nth-child(2){
+	
+	background-color: gold;
+}
+.page:nth-child(3){
+
+	background-color: seagreen;
+}
+.page:nth-child(4){
+
+	background-color: peachpuff;
+}
+.page:nth-child(5){
+
+	background-color:darkgrey;
+}
+
+.hide{
+	display: none;
+}
+
+/*设置翻页的动画*/
+
+.out_top{
+	animation: out_top .5s linear both;
+}
+.in_top{
+	animation: in_top .5s linear both;
+}
+.out_down{
+	animation: out_down .5s linear both;
+}
+.in_down{
+	animation: in_down .5s linear both;
+}
+
+/*当前页-->向上翻-->隐藏*/
+@keyframes out_top{
+	from{
+		transform: translateY(0%);
+	}
+	to{
+		transform: translateY(-100%);
+	}
+}
+/*下一页-->向上翻-->显示*/
+@keyframes in_top{
+	from{
+		transform: translateY(100%);
+	}
+	to{
+		transform: translateY(0%);
+	}
+}
+/*当前页-->向下拉-->隐藏*/
+@keyframes out_down{
+	from{
+		transform: translateY(0%);
+	}
+	to{
+		transform: translateY(100%);
+	}
+}
+/*上一页-->向下拉-->显示*/
+@keyframes in_down{
+	from{
+		transform: translateY(-100%);
+	}
+	to{
+		transform: translateY(0%);
+	}
+}
